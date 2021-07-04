@@ -19,7 +19,7 @@ For a real world application I would rely on a different setup, although less op
 
 ## Features
 
--   It shares one WebSocket connection with multiple component instances and/or tabs. No matter how may, there will always be only one connection.
+-   It shares one WebSocket connection with multiple component instances and/or tabs. No matter how many, there will always be only one connection.
 -   It uses at most 2 WebWorkers, one for every currently displayed product.
 -   Component updates are throttled no matter the message frequency from the WebSocket
 -   Fully responsive
@@ -56,7 +56,7 @@ Very lightweight on the CPU
 
 -   I am very familiar with RxJS, and it would have probably be a nice fit here
 
-I truly am sorry that something is missing, as you may now I currently work at trivago and the travel industry is coming back after Covid, so we are working around the clock to get the most out of it.
+I truly am sorry that something is missing, as you may know I currently work at trivago and the travel industry is coming back after Covid, so we are working around the clock to get the most out of it.
 
 Thank you, I am happy to discuss the code further if interested, have a nice day!
 
