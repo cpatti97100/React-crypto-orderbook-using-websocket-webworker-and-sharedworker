@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    color: white;
+    margin-bottom: 1rem;
+    align-items: center;
+    border-bottom: 1px solid #374151;
+    flex-wrap: wrap;
+}
+
+.button,
+.select {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.kill {
+    background-color: #b91d1d;
+}
+
+.toggle {
+    background-color: #5741d9;
+}
+
+.select {
+    background-color: #374151;
+}

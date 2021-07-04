@@ -1,0 +1,68 @@
+.orderBookPanel {
+    flex-grow: 1;
+    flex-basis: 300px;
+    flex-shrink: 0;
+    position: relative;
+
+    order: 0;
+}
+
+.paddingTop {
+    padding-top: 24px;
+}
+
+.tableCell {
+    width: 33%;
+    order: 2;
+}
+
+.order0 {
+    order: 0;
+}
+
+.order1 {
+    order: 1;
+}
+
+.head {
+    color: #636a79;
+}
+
+.body {
+    color: #e4e6e9;
+}
+
+.tableRow {
+    display: flex;
+}
+
+.red {
+    color: #dd4041;
+}
+
+.green {
+    color: #0ca374;
+}
+
+.greenBar {
+    fill: #123839;
+}
+
+.redBar {
+    fill: #3e212c;
+}
+
+.table {
+    position: absolute;
+    text-align: right;
+    width: 90%;
+    top: 0;
+}
+
+.table th {
+    width: 33%;
+}
+
+.table tbody {
+    font-size: 12px;
+}
