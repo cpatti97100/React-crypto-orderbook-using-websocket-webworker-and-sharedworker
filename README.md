@@ -1,6 +1,7 @@
 Good day and thank you for checking out my case study :)
 
-Live link (Firefox only): https://crypto-orderbook.000webhostapp.com/
+Live link (Firefox only): https://carlo-4-july-2021.vercel.app/
+
 Get Firefox: https://www.mozilla.org/en-US/firefox/new/
 
 **Screenshot**
