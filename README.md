@@ -1,4 +1,4 @@
-Good day and thank you for checking out my case study :)
+Good day and thank you for checking out my crypto orderbook :)
 
 Live link (Firefox only): https://carlo-4-july-2021.vercel.app/
 
@@ -43,12 +43,11 @@ Very lightweight on the CPU
 
 ## Improvements
 
--   Tests: unfortunately I am not really familiar with a Jest/React/Webpack setup, but I would be happy to learn :)
+-   Tests
 -   SharedWorker is currently not supported in safari, but it is again under consideration
     (https://bugs.webkit.org/show_bug.cgi?id=149850)
 -   SharedWorker cannot spin up WebWorker in Chrome
 -   I used HTML tables and SVG as they are accessible and in theory the right tool for the job.
-    It was fun learning more about SVG in particular, but there is room for improvement there.
 -   Naming of CSS classes and variables in general
 -   ...many more, software is a never ending journey :D
 
@@ -56,9 +55,6 @@ Very lightweight on the CPU
 
 -   I am very familiar with RxJS, and it would have probably be a nice fit here
 
-I truly am sorry that something is missing, as you may know I currently work at trivago and the travel industry is coming back after Covid, so we are working around the clock to get the most out of it.
-
-Thank you, I am happy to discuss the code further if interested, have a nice day!
 
 # Webpack 5 boilerplate
 
