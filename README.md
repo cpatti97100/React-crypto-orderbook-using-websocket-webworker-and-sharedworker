@@ -1,6 +1,6 @@
 Good day and thank you for checking out my crypto orderbook :)
 
-Live link (Firefox only): https://react-crypto-orderbook-using-websocket-webworker-and-sharedworker.vercel.app
+Live link (Firefox only): https://react-crypto-orderbook-using-websocket-webworker-an-cpatti97100.vercel.app/
 
 Get Firefox: https://www.mozilla.org/en-US/firefox/new/
 
