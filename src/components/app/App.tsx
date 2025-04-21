@@ -1,7 +1,9 @@
-import { SharedWorkerProvider } from "@src/providers";
+/** @format */
 
-import OrderBook from "../OrderBook";
-import { main } from "./app.module.scss";
+import { SharedWorkerProvider } from '@src/providers'
+
+import OrderBook from '../OrderBook'
+import { main } from './app.module.scss'
 
 function App() {
   return (
@@ -13,7 +15,7 @@ function App() {
         {/* <OrderBook /> */}
       </SharedWorkerProvider>
     </main>
-  );
+  )
 }
 
-export default App;
+export default App
