@@ -1,4 +1,6 @@
+/** @format */
+
 export {
-    SharedWorkerFunctionsContext,
-    SharedWorkerProvider,
-} from './SharedWorkerProvider';
+  SharedWorkerFunctionsContext,
+  SharedWorkerProvider,
+} from './SharedWorkerProvider'

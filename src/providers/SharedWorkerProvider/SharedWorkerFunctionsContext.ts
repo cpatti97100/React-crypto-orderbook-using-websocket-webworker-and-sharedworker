@@ -1,5 +1,7 @@
-import React from 'react';
+/** @format */
 
-const SharedWorkerFunctionsContext = React.createContext<any>(null);
+import React from 'react'
 
-export { SharedWorkerFunctionsContext };
+const SharedWorkerFunctionsContext = React.createContext<any>(null)
+
+export { SharedWorkerFunctionsContext }
