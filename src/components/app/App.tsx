@@ -1,5 +1,3 @@
-/** @format */
-
 import { SharedWorkerProvider } from '@src/providers'
 
 import OrderBook from '../OrderBook'

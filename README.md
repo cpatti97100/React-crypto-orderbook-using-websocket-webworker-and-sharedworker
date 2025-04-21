@@ -4,8 +4,7 @@ Live link (Firefox only): https://react-crypto-orderbook-using-websocket-webwork
 
 Get Firefox: https://www.mozilla.org/en-US/firefox/new/
 
-**Screenshot**
-![Screenshot](https://i.ibb.co/wsb5pSD/Screenshot-2021-07-04-at-14-13-28.png)
+**Screenshot** ![Screenshot](https://i.ibb.co/wsb5pSD/Screenshot-2021-07-04-at-14-13-28.png)
 
 ## Here are few important notes:
 
@@ -17,41 +16,37 @@ For a real world application I would rely on a different setup, although less op
 
 ## Features
 
--   It shares one WebSocket connection with multiple component instances and/or tabs. No matter how many, there will always be only one connection.
--   It uses at most 2 WebWorkers, one for every currently displayed product.
--   Component updates are throttled no matter the message frequency from the WebSocket
--   Fully responsive
+- It shares one WebSocket connection with multiple component instances and/or tabs. No matter how many, there will always be only one connection.
+- It uses at most 2 WebWorkers, one for every currently displayed product.
+- Component updates are throttled no matter the message frequency from the WebSocket
+- Fully responsive
 
 ## Performance
 
-**Memory usage in time**
-![memory usage](https://i.ibb.co/qjhL4qQ/Screenshot-2021-07-04-at-14-15-51.png)
+**Memory usage in time** ![memory usage](https://i.ibb.co/qjhL4qQ/Screenshot-2021-07-04-at-14-15-51.png)
 
 Absolutely stable
 
-**Firefox Profiler**
-![Firefox profiler](https://i.ibb.co/DK87DW7/Screenshot-2021-07-04-at-14-08-36.png)
+**Firefox Profiler** ![Firefox profiler](https://i.ibb.co/DK87DW7/Screenshot-2021-07-04-at-14-08-36.png)
 
 Very lightweight on the CPU
 
-**React Profiler**
-![react profiler](https://i.ibb.co/hcQ4FCc/Screenshot-2021-07-04-at-14-20-05.png)
+**React Profiler** ![react profiler](https://i.ibb.co/hcQ4FCc/Screenshot-2021-07-04-at-14-20-05.png)
 
 **dev build** rendering times
 
 ## Improvements
 
--   Tests
--   SharedWorker is currently not supported in safari, but it is again under consideration
-    (https://bugs.webkit.org/show_bug.cgi?id=149850)
--   SharedWorker cannot spin up WebWorker in Chrome
--   I used HTML tables and SVG as they are accessible and in theory the right tool for the job.
--   Naming of CSS classes and variables in general
--   ...many more, software is a never ending journey :D
+- Tests
+- SharedWorker is currently not supported in safari, but it is again under consideration (https://bugs.webkit.org/show_bug.cgi?id=149850)
+- SharedWorker cannot spin up WebWorker in Chrome
+- I used HTML tables and SVG as they are accessible and in theory the right tool for the job.
+- Naming of CSS classes and variables in general
+- ...many more, software is a never ending journey :D
 
 ## Next ideas
 
--   I am very familiar with RxJS, and it would have probably be a nice fit here
+- I am very familiar with RxJS, and it would have probably be a nice fit here
 
 # React + TypeScript + Vite
 

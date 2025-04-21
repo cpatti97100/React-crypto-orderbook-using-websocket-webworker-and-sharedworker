@@ -1,8 +1,7 @@
 {
   "arrowParens": "always",
-  "insertPragma": true,
+  "insertPragma": false,
   "jsxSingleQuote": true,
-  "multilineArraysWrapThreshold": 2,
   "printWidth": 80,
   "proseWrap": "never",
   "semi": false,

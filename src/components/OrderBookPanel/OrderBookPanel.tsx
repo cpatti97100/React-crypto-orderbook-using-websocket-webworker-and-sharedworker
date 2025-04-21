@@ -1,5 +1,3 @@
-/** @format */
-
 import { OrderBookEntries } from '@src/@types'
 
 import cn from 'classnames'

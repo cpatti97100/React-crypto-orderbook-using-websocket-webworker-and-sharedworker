@@ -1,5 +1,3 @@
-/** @format */
-
 import { OrderBook, Product } from '@src/@types'
 
 import * as Comlink from 'comlink'

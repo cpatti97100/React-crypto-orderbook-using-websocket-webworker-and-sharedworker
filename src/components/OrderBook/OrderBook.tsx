@@ -1,5 +1,3 @@
-/** @format */
-
 import { Product } from '@src/@types'
 
 import cn from 'classnames'

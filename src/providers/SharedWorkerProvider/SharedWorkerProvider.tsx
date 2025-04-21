@@ -1,5 +1,3 @@
-/** @format */
-
 // import * as Comlink from 'comlink'
 import React from 'react'
 

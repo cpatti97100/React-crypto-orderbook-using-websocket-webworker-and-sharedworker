@@ -1,5 +1,3 @@
-/** @format */
-
 import { OrderBook, Product, TransformDataWorker } from '@src/@types'
 import { endpointSymbol } from 'vite-plugin-comlink/symbol'
 

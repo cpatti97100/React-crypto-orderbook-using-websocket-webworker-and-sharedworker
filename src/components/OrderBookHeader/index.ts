@@ -1,1 +1,1 @@
-export { default as OrderBookHeader } from './OrderBookHeader';
+export { default as OrderBookHeader } from './OrderBookHeader'

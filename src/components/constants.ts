@@ -1,5 +1,3 @@
-/** @format */
-
 const PI_XBTUSDgroupings = [
   {
     values: [0],

@@ -1,5 +1,3 @@
-/** @format */
-
 export {
   SharedWorkerFunctionsContext,
   SharedWorkerProvider,
