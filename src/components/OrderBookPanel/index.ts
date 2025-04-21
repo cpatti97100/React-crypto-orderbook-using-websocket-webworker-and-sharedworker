@@ -1,1 +1,3 @@
-export { default as OrderBookPanel } from './OrderBookPanel';
+/** @format */
+
+export { default as OrderBookPanel } from './OrderBookPanel'
