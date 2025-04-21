@@ -1,0 +1,12 @@
+{
+  "arrowParens": "always",
+  "insertPragma": true,
+  "jsxSingleQuote": true,
+  "multilineArraysWrapThreshold": 2,
+  "printWidth": 80,
+  "proseWrap": "never",
+  "semi": false,
+  "singleAttributePerLine": true,
+  "singleQuote": true,
+  "trailingComma": "es5"
+}
