@@ -9,8 +9,6 @@ Get Firefox: https://www.mozilla.org/en-US/firefox/new/
 
 ## Here are few important notes:
 
-This repository is a fork of https://github.com/glook/webpack-typescript-react (base react + webpack 5 boilerplate, see below)
-
 This code is not for production use and only runs on Firefox due to SharedWorker and WebWorker specific features browser support.
 
 I honestly just had so much fun playing with those that I could not resist going all in :)
