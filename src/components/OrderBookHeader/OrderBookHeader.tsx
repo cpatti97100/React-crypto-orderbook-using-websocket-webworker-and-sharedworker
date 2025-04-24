@@ -23,7 +23,7 @@ type OrderBookHeaderProps = {
 function OrderBookHeader({
   product,
   setProduct,
-  groupingValues,
+  // groupingValues,
   setGroupingValues,
 }: OrderBookHeaderProps) {
   const sharedWorkerFunctions = useContext(SharedWorkerFunctionsContext)

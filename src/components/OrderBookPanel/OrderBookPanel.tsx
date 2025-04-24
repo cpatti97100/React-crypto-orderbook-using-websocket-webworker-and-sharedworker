@@ -1,7 +1,6 @@
 import { OrderBookEntries } from '@src/@types'
 
 import cn from 'classnames'
-import React from 'react'
 
 import OrderBookPanelModuleScssModule from './orderBookPanel.module.scss'
 import styles from './orderBookPanel.module.scss'
