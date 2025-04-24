@@ -1,4 +1,4 @@
-import { OrderBook, Product, TransformDataWorker } from '@src/@types'
+import { OrderBook, Product } from '@src/@types'
 import { endpointSymbol } from 'vite-plugin-comlink/symbol'
 
 // import * as Comlink from 'comlink'
@@ -16,7 +16,9 @@ export class WebsocketOrderBookConnection {
 
   private ws: WebSocket | null = null
   private worker: Worker | null = null
-  private comlinkWorker: TransformDataWorker | null = null
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  private comlinkWorker: any
 
   constructor(product: Product) {
     this.bindedMessageHandler = this.messageHandler.bind(this)
@@ -119,7 +121,7 @@ export class WebsocketOrderBookConnection {
       this.ws?.close()
     } finally {
       // where releaseProxy?
-      this.worker?.releaseProxy()
+      this.comlinkWorker?.releaseProxy()
       this.worker?.terminate()
 
       this.ws = null

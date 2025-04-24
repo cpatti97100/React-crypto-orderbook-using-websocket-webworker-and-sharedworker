@@ -1,5 +1,3 @@
-import * as Comlink from 'comlink'
-
 export enum Product {
   PI_XBTUSD = 'PI_XBTUSD',
   PI_ETHUSD = 'PI_ETHUSD',
@@ -36,8 +34,4 @@ export type OrderBookDeltas = Array<[number, number]>
 export type WebSocketMessageData = {
   asks: OrderBookDeltas
   bids: OrderBookDeltas
-}
-
-export type TransformDataWorker = Comlink.Remote<WorkerType> & {
-  computeComponentValues: (data: string) => OrderBook
 }

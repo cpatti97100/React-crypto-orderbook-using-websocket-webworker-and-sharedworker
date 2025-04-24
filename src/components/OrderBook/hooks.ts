@@ -46,26 +46,28 @@ const useWorkerData = (product: Product): OrderBook => {
 }
 
 const useOrderBookResize = (
-  orderBookRef: RefObject<HTMLDivElement>
+  orderBookRef: RefObject<HTMLDivElement | null>
 ): boolean => {
   const [isMobileView, setIsMobileView] = useState(false)
 
   useEffect(() => {
-    const orderBookEl = orderBookRef.current
-    const handleResize = debounce((entries: Array<ResizeObserverEntry>) => {
-      const { width } = entries[0].contentRect
+    if (orderBookRef) {
+      const orderBookEl = orderBookRef.current
+      const handleResize = debounce((entries: Array<ResizeObserverEntry>) => {
+        const { width } = entries[0].contentRect
 
-      setIsMobileView(width < 600)
-    }, 250)
+        setIsMobileView(width < 600)
+      }, 250)
 
-    const resizeObserver = new ResizeObserver(handleResize)
+      const resizeObserver = new ResizeObserver(handleResize)
 
-    if (orderBookEl) {
-      resizeObserver.observe(orderBookEl)
+      if (orderBookEl) {
+        resizeObserver.observe(orderBookEl)
 
-      return () => {
-        resizeObserver.disconnect()
-        handleResize.cancel()
+        return () => {
+          resizeObserver.disconnect()
+          handleResize.cancel()
+        }
       }
     }
 

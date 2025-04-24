@@ -30,8 +30,8 @@ function disconnectComponent(product: Product, connectionID: string) {
 }
 
 function triggerError() {
-  Object.keys(websocketOrderBookConnections).forEach((product: Product) => {
-    websocketOrderBookConnections[product].triggerError()
+  Object.keys(websocketOrderBookConnections).forEach((product) => {
+    websocketOrderBookConnections[product as Product].triggerError()
   })
 }
 
@@ -41,9 +41,8 @@ const sharedWorkerFunctions = {
   triggerError,
 }
 
-;(self as unknown as SharedWorker.SharedWorkerGlobalScope).onconnect =
-  function (event: MessageEvent) {
-    const port = event.ports[0]
+self.onconnect = function (event: MessageEvent) {
+  const port = event.ports[0]
 
-    Comlink.expose(sharedWorkerFunctions, port)
-  }
+  Comlink.expose(sharedWorkerFunctions, port)
+}
